@@ -1,0 +1,167 @@
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	width: 800px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid #931420;
+	background-color: #fffded;
+}
+
+section {
+	width: 525px;
+	float: right;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+#aside {
+	width: 215px;
+	float: right;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+aside>h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+
+aside>img {
+	padding-bottom: 1em;
+}
+
+/* the styles for the header */
+header img {
+	float: left;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 1em;
+	padding-top: 30px;
+}
+
+header {
+	border-bottom: 3px solid #931420;
+	border-top: .0001px solid #931420;
+	background: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+}
+
+#nav_menu ul {
+	list-style-type: none;
+	margin: 0%;
+	padding: 0%;
+	position: relative;
+}
+#nav_menu ul li {
+	float: left;
+}
+#nav_menu ul li a {
+	display: block;
+	width: 160px;
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background-color: #800000;
+	font-weight: bold;
+	color: white;
+}
+
+#nav_menu a.current {
+	color: yellow;
+}
+
+#nav_menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+#nav_menu ul ul li {
+	float: none;
+}
+
+#nav_menu ul li:hover > ul {
+	display: block;
+}
+
+#nav_menu > ul::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+span.shadow {
+	text-shadow: #800000 1px 1px;
+}
+
+/* title, h2 and h3 elements */
+#title {
+	font-size: 170%;
+	color: #800000;
+}
+
+main>h2 {
+	font-size: 170%;
+	color: #800000;
+	padding-top: .5em;
+	padding-bottom: .25em;
+}
+
+h3 {
+	font-size: 130%;
+	font-style: italic;
+	padding-bottom: .25em;
+}
+
+/* the styles for the section */
+main {
+	clear: left;
+}
+
+main p {
+	padding-bottom: .5em;
+}
+
+main blockquote {
+	padding-right: 2em;
+	padding-left: 2em;
+}
+
+main ul {
+	padding-bottom: .25em;
+	padding-left: 1.25em;
+}
+
+main li {
+	padding-bottom: .35em;
+}
+
+/*
+h1 {
+	border: 4px double #931420;
+	border-radius: 25px;
+	box-shadow: 4px 5px black;
+	text-align: center;
+	padding-top: .3em;
+	padding-bottom: .3em;
+	background-color: white;
+}
+*/
+
+main a:hover {
+	font-style: italic;
+}
+
+/* the styles for the footer */
+footer {
+	clear: both;
+	text-align: center;
+	border: 1px solid #931420;
+	background-color: #931420;
+	color: #fffded;
+	padding-bottom: 1em;
+	padding-top: 1em;
+}
